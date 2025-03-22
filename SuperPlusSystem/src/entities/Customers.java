@@ -220,7 +220,7 @@ public class Customers {
 			
 			ResultSet rs = ps.executeQuery(); 
             
-			System.out.println("\n===== Clientes com os maiores gastos =====");
+			System.out.println("\n===== Clientes com mais pontos disponíveis =====");
 			System.out.printf("%-15s %-35s %-20s%n", "ID do Cliente", "Nome do Cliente", "Pontos disponíveis");
             System.out.println("---------------------------------------------------------------");
             while (rs.next()) {
