@@ -1,3 +1,6 @@
+create schema if not exists superplus;
+use superplus;
+
 DROP TABLE IF EXISTS exchange_products;
 DROP TABLE IF EXISTS redeemable_products;
 DROP TABLE IF EXISTS points;
